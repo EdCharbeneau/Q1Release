@@ -6,7 +6,7 @@
 
     <!-- certificate -->
     <asp:Panel ID="CertificatePanel" runat="server" CssClass="certificate" BackImageUrl="~/Images/cert-background.png" Height="500px" Width="762px">
-        <h1>Certificate of Completeion</h1>
+        <h1>Certificate of Completion</h1>
         <h2>This certifies that</h2>
         <p>
             <asp:Label ID="UserName" runat="server" Text="User Name"></asp:Label>
