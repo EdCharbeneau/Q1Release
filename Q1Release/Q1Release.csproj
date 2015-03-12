@@ -116,6 +116,13 @@
     <Compile Include="ClientExport.aspx.designer.cs">
       <DependentUpon>ClientExport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Navigation.aspx.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navigation.aspx.designer.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PageLayout.aspx.cs">
       <DependentUpon>PageLayout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -175,6 +182,7 @@
     <Content Include="BootstrapDemo.aspx" />
     <Content Include="ClientExport.aspx" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Navigation.aspx" />
     <Content Include="PageLayout.aspx" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\large-header-image.png" />
@@ -250,7 +258,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
